@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "D2K STORE";
+
+    Layout = "~/Views/Shared/_LayoutClient2.cshtml";
+}
+@using CHBHTH.Models;
+
+
+<br />
+<header class="bg-body py-0">
+    <center>
+        <div class="row">
+            <div class="col-md-16">
+                
+            </div>
+        </div>
+    </center>
+</header>
+<br />
+<div class="spnoibat">
+    <center>
+        <div class="row">
+            <div class="col-md-4 p-0">
+                <img src="~/Images/" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-4 p-0">
+               
+            </div>
+            <div class="col-md-4 p-0">
+                <img src="~/Images/" class="img-fluid" alt="" />
+            </div>
+        </div>
+    </center>
+
+</div>
+<br />
+
+@Html.Action("SAS", "sanpham")
+
+@Html.Action("OP", "sanpham")
+
+
+<div>
+    <center>
+        
+    </center>
+</div>
+<br />
+
+@Html.Action("phukien", "sanpham")
+
+

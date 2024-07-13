@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "UploadImage";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Upload Image</h2>
+
+@using (Html.BeginForm("UploadImage", "SanPham", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div class="form-group">
+    <label for="file">Choose Image</label>
+    <input type="file" name="file" id="file" class="form-control" />
+</div>
+                <button type="submit" class="btn btn-primary">Upload</button>}

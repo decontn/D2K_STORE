@@ -1,0 +1,30 @@
+﻿body {
+}
+.banner {
+    background-image: url('/path/to/your/banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+    .banner img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.banner-text {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+}
+.carousel-item img {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the container */
+}
